@@ -23,7 +23,7 @@ function App() {
 
       <Navbar  title={"Hassan Gillani"}> </Navbar>
 
-      <About exact path='/About' name={"Yousaf Raza Gillani"}> </About>
+      <About exact path='/About' name={"Hassan Gillani"}> </About>
       <Projects exact path='/Projects'> </Projects>
       <Connect exact path='/Connect'> </Connect>
 
