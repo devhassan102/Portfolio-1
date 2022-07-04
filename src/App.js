@@ -21,7 +21,7 @@ function App() {
       
       </Router> */}
 
-      <Navbar  title={"Noob Squad"}> </Navbar>
+      <Navbar  title={"Hassan Gillani"}> </Navbar>
 
       <About exact path='/About' name={"Yousaf Raza Gillani"}> </About>
       <Projects exact path='/Projects'> </Projects>
