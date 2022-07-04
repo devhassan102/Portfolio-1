@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&family=The+Nautigal:wght@700&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Navbar CSS */
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  z-index: index 1;
+}
+
+.max_width{
+  max-width:1 rem;
+  padding: 12px;
+  margin: auto;
+  display: inline-block;
+}
+
+.navbar .max_width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  color: black;
+  font-size:xx-large;
+  font-weight: 400;
+  font-family: 'The Nautigal', cursive;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar .menu li a {
+  color: rgba(105, 89, 89, 0.685);
+  font-weight:bold;
+  transition: all;
+  transition-delay: 10ms;
+}
+
+.navbar .menu li a:hover {
+  color: rgba(2, 0, 0, 0.925);
+  font-weight:bold;
+}
+
+
+/* About CSS */
+
+.about-box1-size{
+  background-color: white;
+}
+
+.about-box1-size div{
+  display: inline-block;
+}
+
+.about-content-1 div{
+  display: block;
+  padding: 1%;
+  padding-bottom: 3%;
+  margin-left: 2%;
+}
+
+.about-content-1 .text-1{
+  display:flex;
+  font-size: 510%;
+  font-weight: bold;
+}
+
+.typing{
+  padding-left: 1%;
+}
+
+.about-content-1 .text-2{
+  display:flex;
+  font-size: 230%;
+  font-weight: bold;
+  margin-bottom: 14%;
+}
+
+.about-content-1 .text-3{
+  display:flex;
+  font-size: 220%;
+  font-weight:lighter;
+}
+
+.about-content-2 img{
+  padding-top: 11%;
+ 
+}
+
+.about-content-2 {
+  padding-top: 11%;
+  padding: 2%;
+  margin-left: 21%;
+}
+
+/* About Section 2 CSS */
+
+.about-box2-size {
+  background-color: #f4f4f4!important;
+}
+
+.about-box2-size .description div{
+  display: block;
+
+}
+
+.content{
+  font-size: 310%;
+  font-weight: bolder;
+  padding-top: 8%;
+  padding-left: 3%;
+
+}
+
+.content span{
+  font-size: 110%;
+  font-weight: bolder;
+  color: blue;
+}
+
+.first{
+  font-size: 160%;
+  font-weight: bolder;
+  padding-top: 3%;
+  padding-left: 3%;
+
+}
+
+.second{
+  font-size: 160%;
+  font-weight: bolder;
+  
+  padding-left: 3%;
+  padding-bottom: 8%;
+
+}
+
+/* About Section 3 CSS */
+
+.about-box2-size {
+  background-color: white;
+}
+
+.about-box3-size .details div{
+  display: block;
+}
+
+.details .g1{
+  font-size: 220%;
+  font-weight: bolder;
+  padding-top: 8%;
+  padding-left: 3%;
+}
+
+.details .g2{
+  font-size: 180%;
+  font-weight: bolder;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+.details .g3{
+  font-size: 180%;
+  padding-bottom: 1%;
+  font-weight: bolder;
+  padding-left: 3%;
+}
+
+.details .g4{
+  font-size: 180%;
+  padding-bottom: 1%;
+  font-weight: bolder;
+  padding-left: 3%;
+}
+
+.about-box3-size .more-details{
+  display: block;
+}
+
+.w1{
+  font-size: 220%;
+  font-weight: bolder;
+  padding-top: 8%;
+  padding-left: 3%;
+}
+
+.about-box3-size .icons{
+  display: block;
+}
+
+.icons{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 3%;
+}
+
+.concept {
+  display: inline-block;
+  padding-left: 2%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.concept p{
+  display: inline;
+  position: relative;
+  bottom: 1rem;
+}
+
+
+.design{
+  display: inline-block;
+  padding-left: 10%;   
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.design p{
+  display: inline;
+  position: relative;
+  bottom: 1rem;
+}
+
+.engineer {
+  display: inline-block;
+  padding-left: 10%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.engineer p{
+  display: inline;
+  position: relative;
+  bottom: 1rem;
+}
+
+.develop {
+  display: inline-block;
+  padding-left: 10%;
+  font-size: 160%;
+  font-weight: bolder;
+  
+}
+
+.develop p{
+  display: inline;
+  position: relative;
+  bottom: 1rem;
+}
+
+.maintain {
+  display: inline-block;
+  padding-left: 10%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.maintain p{
+  display: inline;
+  position: relative;
+  bottom: 1rem;
+}
+
+/* Projects Section CSS */
+
+.project{
+  background-color: #f4f4f4!important;
+}
+
+.project-section{
+  display: flex;
+}
+
+.project .leftSide {
+  display: inline-block;
+}
+
+.img-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.my-projects{
+  margin-top: 20%;
+  margin-left: 10%;
+  font-size: 110%;
+}
+
+
+.project .rightSide {
+  display: inline-block;
+}
+
+#container{
+  width: 1500px;
+  height:800px;
+  padding-left: 10px;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+
+#container div{
+  width:650px;
+  height:300px;
+}
+
+#container div a{
+  width:650px;
+  height:300px;
+}
+
+
+
+#cont-2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 1500px;
+  height:400px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#cont-2 div{
+  width:650px;
+  height:300px;
+}
+
+.row-3{
+  font-weight: bold;
+  font-size: 150%;
+  padding-left: 3%;
+}
+
+.row-3 .cont-2{
+  display: flex;
+}
+
+
+
+
+
+/* Connect Section CSS */
+
+.footter{
+display: block;
+}
+
+.info.section {
+  background-color: white;
+}
+
+.row-1{
+  font-size: 146%;
+  font-weight: bolder;
+  padding-top: 8%;
+  padding-left: 3%;
+}
+
+.row-2{
+  display: block;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.row-2-1{
+  display: inline-block;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.img-size{
+  width: 50%;
+  height: 50%;
+}
+
+.row-2-2{
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.row-2-3{
+  width: 40%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.row-2-4{
+  display: inline-block;
+  padding-left: 3%;
+  padding-top: 3%;
+  position: relative;
+  right: 10%;
+}
+
+.row-2 p{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.row-2-1 a{
+  font-weight: bold;
+  transition:all 200ms;
+}
+
+.row-2-1 a:hover{
+  padding: 8px; 
+}
+
+.row-2-4 a{
+  font-weight: bold;
+  transition:all 200ms;
+}
+
+.row-2-4 a:hover{
+  padding: 8px; 
+}
+
+/* .row-2-2 a{
+  font-weight: bold;
+  transition:all 200ms;
+}
+
+.row-2-2 a:hover{
+  margin-bottom:  18px;
+} */
+
+/* Bottom footer CSS */
+
+.bottom {
+  height: 200%;
+  background-color: black;
+}
+
+.bottom div p {
+  text-align: center;
+  color: #ddcec7;
+  font-size: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
