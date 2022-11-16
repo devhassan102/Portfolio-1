@@ -8,7 +8,7 @@
 }
 
 /* Navbar CSS */
-.logo {
+#logo {
   color: black;
   font-size:xx-large;
   font-weight: 400;
@@ -22,6 +22,9 @@
   padding-top: 20px !important;
   font-weight: 600 !important;
   letter-spacing: 1px;
+}
+.logo:hover{
+color: black;
 }
 
 /* .et_header_style_left .logo_container {
@@ -636,6 +639,9 @@ display: block;
     text-align: center;
     margin-left: 0px;
   }
+  /* .navbar-collapse{
+    transition: transform 1s ease-out !important;
+  } */
   #navbarNav{
     position: absolute;
       left: 0;
@@ -644,10 +650,13 @@ text-align: center;
       width: 100%;
       visibility: visible;
       opacity: 1;
-      margin-top: 300px;
+      margin-top: 265px;
       z-index: 99999;
       border-top: 3px solid #2ea3f2;
-      transition: .3s transform ease-in-out;
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 2s 0s ease-in, visibility 0s 0s;
+      
   }
   #container{
     display: block;

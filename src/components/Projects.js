@@ -16,16 +16,16 @@ function Projects() {
             <div className='row-1'> React </div>
 
             <div className='row-2' id='container'>
-            <div className='outer-img-div'>  <div clasName="react-1 col" > <a href='https://www.blackriflecoffee.com/' target='_blank'> <img src='pr_1.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
-            <div className='outer-img-div'> <div clasName="react-2 col" > <a href='https://sablev.net/' target='_blank'> <img src='pr_2.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
-            <div className='outer-img-div'> <div clasName="react-3 col" > <a href='https://www.bactrack.com/' target='_blank'> <img src='pr_3.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
+            <div className='outer-img-div'>  <div className="react-1 col" > <a href='https://www.blackriflecoffee.com/' target='_blank'> <img src='pr_1.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
+            <div className='outer-img-div'> <div className="react-2 col" > <a href='https://sablev.net/' target='_blank'> <img src='pr_2.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
+            <div className='outer-img-div'> <div className="react-3 col" > <a href='https://www.bactrack.com/' target='_blank'> <img src='pr_3.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
             </div>
             
             <div className='row-3' > Wordpress </div>
             <div className='row-2' id='container'>
           
-            <div className='outer-img-div'> <div clasName="wordpress-1 col" > <a href='http://thenerdcamp.com/' target='_blank'> <img src='wp_1.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
-            <div className='outer-img-div'> <div clasName="wordpress-2 col" > <a href='http://fitnestudio.com/' target='_blank'> <img src='wp_2.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
+            <div className='outer-img-div'> <div className="wordpress-1 col" > <a href='http://thenerdcamp.com/' target='_blank'> <img src='wp_1.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
+            <div className='outer-img-div'> <div className="wordpress-2 col" > <a href='http://fitnestudio.com/' target='_blank'> <img src='wp_2.jpeg' style={{width:'100%',height:'100%'}}></img> </a> </div></div>
   
               </div>
               </div>

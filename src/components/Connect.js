@@ -2,7 +2,7 @@ import React from 'react'
 
 function Connect() {
   return (
-    <div className='footer'>
+    <div className='footer' id="connect">
       <div className='info-section'>
         <div className='row-1'>If you’re interested in talking about an open position, projects, or other inquiries, you can reach out to me using the following.</div>
 

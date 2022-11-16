@@ -32,7 +32,7 @@ function About(props) {
         </div>
       </div>
       </div>
-      <div className='about-box2-size'>
+      <div id="startup-website" className='about-box2-size'>
         <div className='description'>
           <div className='fisrt-p'>
             <div className='content'> I help build websites for  
