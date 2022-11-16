@@ -8,19 +8,19 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
+    {/* <Router>
+      <Routes>
 
-      {/* <Router>
+     
 
-      <Navbar exact path='#' title={"Noob Squad"}></Navbar>
+      <Route exact path='About' element={<About name={"Yousaf Raza Gillani"}></About>}></Route>
 
-      <Routes exact path='/About' element={<About name={"Yousaf Raza Gillani"}></About>}></Routes>
+      <Route exact path='Projects' element={<Projects></Projects>}></Route>
 
-      <Routes exact path='/Projects' element={<Projects></Projects>}></Routes>
-
-      <Routes exact path='/Connect' element={<Connect></Connect>}></Routes>
+      <Route exact path='Connect' element={<Connect></Connect>}></Route>
       
+      </Routes>
       </Router> */}
-
       <Navbar  title={"Hassan Gillani"}> </Navbar>
 
       <About exact path='/About' name={"Hassan Gillani"}> </About>
