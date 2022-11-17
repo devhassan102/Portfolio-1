@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&family=The+Nautigal:wght@700&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Navbar CSS */
+#logo {
+  color: black;
+  font-size:xx-large;
+  font-weight: 400;
+  font-family: 'The Nautigal', cursive;
+  text-decoration: none;
+}
+.nav-link{
+  color: rgba(0,0,0,0.72) !important;
+  padding-bottom:20px !important;
+  padding-right: 20px !important;
+  padding-top: 20px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+}
+.logo:hover{
+color: black;
+}
+
+/* .et_header_style_left .logo_container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container.et_menu_container {
+  z-index: 99;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 32px;
+  padding-left: 30px;
+}
+.container {
+  text-align: left;
+  position: relative;
+  margin: auto;
+}
+span.logo_helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+.logo_container {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#logo {
+  width: auto;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 0;
+  max-height: 54%;
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.et_fixed_nav #et-top-navigation {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.et_header_style_left #et-top-navigation {
+  padding-top: 33px;
+}
+#et-top-navigation {
+  float: right;
+  font-weight: 600;
+}
+nav#top-menu-nav, #top-menu, nav.et-menu-nav, .et-menu {
+  float: left;
+}
+#top-menu-nav, #top-menu {
+  line-height: 0;
+}
+
+nav{
+  display: block;
+}
+.logo a {
+  color: black;
+  font-size:xx-large;
+  font-weight: 400;
+  font-family: 'The Nautigal', cursive;
+}
+
+ol, ul {
+  list-style: none;
+}
+#top-menu li {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 22px;
+}
+#top-menu li {
+  word-wrap: break-word;
+}
+.nav li {
+  position: relative;
+  line-height: 1em;
+}
+#top-menu>li:last-child {
+  padding-right: 0;
+}
+#et_mobile_nav_menu {
+  float: right;
+  display: none;
+}
+.mobile_nav .select_page {
+  display: none;
+}
+.et_header_style_left #et-top-navigation .mobile_menu_bar {
+  padding-bottom: 24px;
+}
+.mobile_menu_bar {
+  position: relative;
+  display: block;
+  line-height: 0;
+}
+.et_mobile_menu {
+  position: absolute;
+  left: 0;
+  padding: 5%;
+  background: #fff;
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+  display: none;
+  z-index: 9999;
+  border-top: 3px solid #2ea3f2;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+.et_mobile_menu li a {
+  border-bottom: 1px solid rgba(0,0,0,.03);
+  color: #666;
+  padding: 10px 5%;
+  display: block;
+}
+.et_mobile_menu li a, .nav li li a {
+  font-size: 14px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+} */
+
+
+
+
+/* .navbar{
+  width: 100%;
+  position: fixed;
+  z-index: index 1;
+}
+
+.max_width{
+  max-width:1 rem;
+  padding: 12px;
+  margin: auto;
+  display: inline-block;
+}
+
+.navbar .max_width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  color: black;
+  font-size:xx-large;
+  font-weight: 400;
+  font-family: 'The Nautigal', cursive;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar .menu li a {
+  color: rgba(105, 89, 89, 0.685);
+  font-weight:bold;
+  transition: all;
+  transition-delay: 10ms;
+}
+
+.navbar .menu li a:hover {
+  color: rgba(2, 0, 0, 0.925);
+  font-weight:bold;
+} */
+
+
+/* About CSS */
+.outer-face-div{
+  display: flex;
+}
+.about-box1-size{
+  background-color: white;
+}
+
+.row{
+  margin-right: 0px !important;
+}
+
+.about-content-1 .text-1{
+  padding-left: 12px;
+  font-size: 510%;
+  font-weight: bold;
+  margin-top:153px;
+}
+
+
+
+.about-content-1 .text-2{
+  padding-left: 12px;
+  font-size: 230%;
+  font-weight: bold;
+
+}
+
+.about-content-1 .text-3{  
+  font-size: 220%;
+  font-weight:300;
+  margin-left: 10px;
+}
+
+.about-content-2 img{
+  padding-top: 11%;
+  width: 100%;
+ 
+}
+
+.about-content-2 {
+  padding-top: 11%;
+  padding: 2%;
+  margin-left: 18%;
+}
+
+/* About Section 2 CSS */
+
+.about-box2-size {
+  background-color: #f4f4f4!important;
+}
+
+.about-box2-size .description div{
+  display: inline-block;
+
+}
+
+.content{
+  font-size: 34px;
+  font-weight: bolder;
+  padding-top: 150px;
+  padding-left: 50px;
+
+}
+
+.content span{
+  font-size: 110%;
+  font-weight: bolder;
+  color: blue;
+}
+
+.first{
+  font-size: 28px;
+    font-weight: bolder;
+    padding-top: 70px;
+    padding-left: 50px;
+
+}
+
+.second{
+  font-size: 28px;
+  font-weight: bolder;
+  padding-top: 13px;
+  padding-left: 50px;
+  padding-bottom: 134px;
+
+}
+
+/* About Section 3 CSS */
+
+.about-box2-size {
+  background-color: white;
+}
+
+.about-box3-size .details div{
+  display: block;
+}
+
+.details .g1{
+  font-size: 220%;
+  font-weight: bolder;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+.details .g2{
+  font-size: 180%;
+  font-weight: bolder;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+.details .g3{
+  font-size: 180%;
+  padding-bottom: 1%;
+  font-weight: bolder;
+  padding-left: 3%;
+}
+
+.details .g4{
+  font-size: 180%;
+  padding-bottom: 1%;
+  font-weight: bolder;
+  padding-left: 3%;
+}
+
+.about-box3-size .more-details{
+  display: block;
+}
+
+.w1{
+  font-size: 220%;
+  font-weight: bolder;
+  padding-top: 8%;
+  padding-left: 3%;
+}
+
+.about-box3-size .icons{
+  display: block;
+}
+
+.icons{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 3%;
+}
+
+.concept {
+  display: inline-flex;
+  padding-left: 2%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.concept p{
+  margin-top: 5px;
+  display: inline;
+  position: relative;
+}
+
+
+.design{
+
+  display: inline-flex;
+  padding-left: 10%;   
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.design p{
+  margin-top: 5px;
+  display: inline;
+  position: relative;
+
+}
+
+.engineer {
+  display: inline-flex;
+  padding-left: 10%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.engineer p{
+  margin-top: 5px;
+  display: inline;
+  position: relative;
+}
+
+.develop {
+  display: inline-flex;
+  padding-left: 10%;
+  font-size: 160%;
+  font-weight: bolder;
+  
+}
+
+.develop p{
+  margin-top: 5px;
+  display: inline;
+  position: relative;
+
+}
+
+.maintain {
+  display: inline-flex;
+  padding-left: 10%;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
+.maintain p{
+  margin-top: 5px;
+  display: inline;
+  position: relative;
+
+}
+.table-columns{
+  padding-left: 70px;
+}
+
+/* Projects Section CSS */
+
+.project{
+  background-color: #f4f4f4!important;
+}
+
+.project-section{
+  display: flex;
+}
+
+.project .leftSide {
+  display: inline-block;
+}
+
+.img-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.my-projects{
+  
+  font-size: 310%;
+  font-weight: bolder;
+  padding-top: 150px;
+  padding-left: 40px;
+}
+.outer-img-div{
+  background-color: #ffffff;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    height: 330px !important;
+    margin-left: 30px;
+}
+
+.project .rightSide {
+  display: inline-block;
+}
+
+#container{
+ width: 100%;
+  padding-left: 10px;
+display: flex;
+  justify-content:space-around;
+ 
+}
+
+#container div{
+
+  height:300px;
+}
+
+
+
+
+#cont-2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 1500px;
+  height:400px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#cont-2 div{
+  width:650px;
+  height:300px;
+}
+
+.row-3{
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-left: 50px !important;
+}
+
+.row-3 .cont-2{
+  display: flex;
+}
+
+
+
+
+
+/* Connect Section CSS */
+
+.footter{
+display: block;
+}
+
+.info.section {
+  background-color: white;
+}
+
+.row-1{
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-left: 50px !important;
+}
+
+
+.row-2{
+  display: block;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.row-2-1{
+  display: inline-block;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.img-size{
+  width: 50%;
+  height: 50%;
+}
+
+.row-2-2{
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.row-2-3{
+  width: 40%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.row-2-4{
+  display: inline-block;
+  padding-left: 3%;
+  padding-top: 3%;
+
+}
+
+.row-2 p{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.row-2-1 a{
+  font-weight: bold;
+  transition:all 200ms;
+}
+
+.row-2-1 a:hover{
+  padding: 8px; 
+}
+
+.row-2-4 a{
+  font-weight: bold;
+  transition:all 200ms;
+}
+
+.row-2-4 a:hover{
+  padding: 8px; 
+}
+
+/* .row-2-2 a{
+  font-weight: bold;
+  transition:all 200ms;
+}
+
+.row-2-2 a:hover{
+  margin-bottom:  18px;
+} */
+
+/* Bottom footer CSS */
+
+.bottom {
+  height: 200%;
+  background-color: black;
+}
+
+.bottom div p {
+  text-align: center;
+  color: #ddcec7;
+  font-size: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/*Media Queries */
+@media only screen and (max-width: 981px) {
+ #main-header .container {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 32px;
+    padding-left: 30px;
+}}
+@media only screen and (max-width: 992px) {
+  .outer-face-div{
+    display: block;
+  }
+  .outer-name-div{
+    text-align: center;
+  }
+  .about-content-1 .text-3{
+    text-align: center;
+  }
+  .about-content-2{
+    text-align: center;
+    margin-left: 0px;
+  }
+  /* .navbar-collapse{
+    transition: transform 1s ease-out !important;
+  } */
+  #navbarNav{
+    position: absolute;
+      left: 0;
+text-align: center;
+      background: #fff;
+      width: 100%;
+      visibility: visible;
+      opacity: 1;
+      margin-top: 265px;
+      z-index: 99999;
+      border-top: 3px solid #2ea3f2;
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 2s 0s ease-in, visibility 0s 0s;
+      
+  }
+  #container{
+    display: block;
+  }
+  .outer-img-div{
+    margin-top: 20px;
+  }
+  .concept, .design, .engineer, .develop, .maintain{
+    padding-top: 20px;
+  }
+ .about-content-1 .text-1{
+  margin-top: 100px;
+ }
+}
